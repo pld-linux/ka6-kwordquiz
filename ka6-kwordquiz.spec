@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.12.3
+%define		kdeappsver	25.04.0
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kwordquiz
 Summary:	kwordquiz
 Name:		ka6-%{kaname}
-Version:	24.12.3
+Version:	25.04.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	04ca2733a798fe38b835af22f2247304
+# Source0-md5:	ada811f331b99ddf81b92ee67bc3e370
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
